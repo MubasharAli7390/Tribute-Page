@@ -1,0 +1,17 @@
+h3, main > h1 {
+    text-align: center;
+  }
+  
+  img {
+    min-width: 20%;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-caption {
+  text-align: center;
+  
+  }
+  

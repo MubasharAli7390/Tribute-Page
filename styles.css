@@ -1,17 +1,56 @@
-h3, main > h1 {
-    text-align: center;
-  }
+body {
+  color: #333;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
   
-  img {
-    min-width: 20%;
-    max-width: 100%;
-    display: block;
-    height: auto;
-    margin: 0 auto;
-  }
-  
-  #img-caption {
+main {
+    background-color: #eee;
+} 
+
+h3, main > h1, p {
   text-align: center;
-  
-  }
-  
+}
+
+h3, h1 {
+  font-size: 1rem;
+}
+
+h1 {
+  margin: 30px;
+  font-size: 3rem;
+}
+h3 {
+  margin: 40px 50px 50px 50px;
+}
+
+img {
+  min-width: 20%;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+}
+
+li {
+  margin: 25px;
+}
+ 
+a {
+  color: #477ca7;
+  cursor: pointer;
+}
+
+#img-div {
+  width: 98%;
+  margin: 10px auto;
+  background-color: #fff;
+}
